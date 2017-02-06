@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Book Transfer Application</title>
+    <script src="./utils/js/angular-1.6.min.js"></script>
+    <script src="./utils/js/jQuery-3.1.1.min.js"></script>
+    <script src="./utils/js/bookApp.js"></script>
+  </head>
+
+  <body ng-app="bookTransfer">
+    <p>Name of the User: <input type="text" ng-model="enrollId"></p>
+    <p>Create a new Book: <input type="text" ng-model="newBookName"></p>
+    <p ng-controller="sendRequest">
+      <button ng-click="sendRequestHTTP()">Create</button>
+      <p ng-bind="createdResponse"></p>
+    </p>
+  </body>
+</html>

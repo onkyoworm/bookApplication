@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;BookApplication&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../blkchain/src/github.com" />
+      <root url="file://$PROJECT_DIR$/../blkchain/src/gopkg.in" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../blkchain/src/github.com" />
+      <root url="file://$PROJECT_DIR$/../blkchain/src/gopkg.in" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
